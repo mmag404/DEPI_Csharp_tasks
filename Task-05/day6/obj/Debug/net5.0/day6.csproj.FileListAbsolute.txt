@@ -1,0 +1,16 @@
+E:\pro\c# tasks\day6\day6\bin\Debug\net5.0\day6.exe
+E:\pro\c# tasks\day6\day6\bin\Debug\net5.0\day6.deps.json
+E:\pro\c# tasks\day6\day6\bin\Debug\net5.0\day6.runtimeconfig.json
+E:\pro\c# tasks\day6\day6\bin\Debug\net5.0\day6.runtimeconfig.dev.json
+E:\pro\c# tasks\day6\day6\bin\Debug\net5.0\day6.dll
+E:\pro\c# tasks\day6\day6\bin\Debug\net5.0\day6.pdb
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\day6.csproj.AssemblyReference.cache
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\day6.GeneratedMSBuildEditorConfig.editorconfig
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\day6.AssemblyInfoInputs.cache
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\day6.AssemblyInfo.cs
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\day6.csproj.CoreCompileInputs.cache
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\day6.dll
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\refint\day6.dll
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\day6.pdb
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\day6.genruntimeconfig.cache
+E:\pro\c# tasks\day6\day6\obj\Debug\net5.0\ref\day6.dll
