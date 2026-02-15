@@ -160,6 +160,13 @@ namespace day7
 
             rect.Draw();
             Console.WriteLine("Area = " + rect.CalculateArea());
+            /*
+            Question Answer:
+            A virtual method has a default implementation in the base class and can be overridden in the child class.
+
+            An abstract method has no implementation in the base class and must be implemented in the child class.
+            */
+
             #endregion
         }
     }
