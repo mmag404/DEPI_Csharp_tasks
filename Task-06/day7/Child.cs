@@ -19,5 +19,9 @@ namespace day7
         {
             Console.WriteLine($"X: {X}, Y: {Y}, Z: {Z}");
         }
+        public override string ToString()
+        {
+            return $"({X}, {Y}, {Z})";
+        }
     }
 }

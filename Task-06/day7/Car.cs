@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace day7
 {
-    internal class Car
+    internal class Car : IMovable
     {
         public int Id { get; set; }
         public string Brand { get; set; }
@@ -44,6 +44,12 @@ namespace day7
         public void Display()
         {
             Console.WriteLine($"Id: {Id}, Brand: {Brand}, Price: {Price}");
+        }
+
+
+        public void Move()
+        {
+            Console.WriteLine("Car is moving");
         }
     }
 }

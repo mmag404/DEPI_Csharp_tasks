@@ -54,9 +54,114 @@ namespace day7
             #endregion
 
 
+            #region q4
+            Parent p1 = new ChildNew(2, 3, 4);
+            Console.WriteLine("Using new keyword (Parent reference): " + p1.Product());
+
+            ChildNew ch1 = new ChildNew(2, 3, 4);
+            Console.WriteLine("Using new keyword (Child reference): " + ch1.Product());
+
+            Parent p2 = new ChildOverride(2, 3, 4);
+            Console.WriteLine("Using override keyword (Parent reference): " + p2.Product());
+
+            ChildOverride ch2 = new ChildOverride(2, 3, 4);
+            Console.WriteLine("Using override keyword (Child reference): " + ch2.Product());
+
+            /*
+            Question Answer:
+            The new keyword hides the parent method. If you use a Parent reference, the Parent method runs.
+
+            The override keyword replaces the parent method. Even if you use a Parent reference,
+            the Child method runs.
+
+            So override supports runtime polymorphism, but new does not.
+            */
+
+            #endregion
 
 
+            #region q5
+            Parent p = new Parent(10, 20);
+            Parent cc = new Child(30, 40, 50);
 
+            Console.WriteLine(p.ToString());
+            Console.WriteLine(cc.ToString());
+
+            /*
+            Question Answer:
+            ToString() is overridden to display object data in a readable format.
+            Instead of printing the class name, it prints the actual values of the object.
+            */
+            #endregion
+
+            #region q6
+            IShape shape = new Rectangle(5, 4);
+
+            shape.Draw();
+            Console.WriteLine("Area = " + shape.Area);
+
+            /*
+            Question Answer:
+            You cannot create an instance of an interface because it has no implementation.
+            It only defines methods and properties. A class must implement the interface first,
+            then you create an object from that class.
+            */
+            #endregion
+
+
+            #region q7
+            IShape shapee = new Circle(3);
+
+            shapee.Draw();
+            Console.WriteLine("Area = " + shapee.Area);
+
+            shapee.PrintDetails();
+            /*
+            Question Answer:
+            Default implementations allow adding new methods to interfaces without breaking existing classes.
+            Classes can use the default method or override it if needed.
+            */
+            #endregion
+
+
+            #region q8
+            IMovable movable = new Car();
+
+            movable.Move();
+
+            /*
+            Question Answer:
+            Using an interface reference allows us to write flexible code.
+            We can use the same interface reference with different classes that implement the interface.
+            This supports polymorphism and makes the code easier to extend and maintain.
+            */
+
+
+            #endregion
+
+            #region q9
+            File file = new File();
+
+            file.Read();
+            file.Write();
+
+
+            /*
+            Question Answer:
+            C# does not support multiple inheritance with classes, but it allows a class to implement multiple interfaces.
+            This lets a class have behaviors from multiple sources without inheritance problems.
+            */
+
+            #endregion
+
+
+            #region q10
+            Rectangl rect = new Rectangl(5, 4);
+
+            rect.Draw();
+            Console.WriteLine("Area = " + rect.CalculateArea());
+            #endregion
         }
     }
+    
 }

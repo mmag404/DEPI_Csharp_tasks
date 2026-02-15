@@ -16,5 +16,14 @@ namespace day7
             X = x;
             Y = y;
         }
+
+        public virtual int Product()
+        {
+            return X * Y;
+        }
+        public override string ToString()
+        {
+            return $"({X}, {Y})";
+        }
     }
 }
