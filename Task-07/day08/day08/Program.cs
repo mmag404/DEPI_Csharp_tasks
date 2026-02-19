@@ -4,6 +4,40 @@ namespace day08
 {
     internal class Program
     {
+        static void PrintTenShapes(IShapeSeries series)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(series.CurrentShapeArea);
+                series.GetNextArea();
+            }
+
+            series.ResetSeries();
+        }
+
+        public static void SelectionSort(int[] numbers)
+        {
+            int n = numbers.Length;
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                int minIndex = i;
+
+                for (int j = i + 1; j < n; j++)
+                {
+                    if (numbers[j] < numbers[minIndex])
+                    {
+                        minIndex = j;
+                    }
+                }
+
+                // swap
+                int temp = numbers[i];
+                numbers[i] = numbers[minIndex];
+                numbers[minIndex] = temp;
+            }
+        }
+
         static void Main(string[] args)
         {
             #region Q1
@@ -365,6 +399,195 @@ namespace day08
             */
 
             #endregion
+
+            #region Q8
+            /*
+           Answer:
+
+           Default interface implementations improve backward compatibility
+           because they allow adding new methods to an interface without breaking existing classes.
+
+           Before default implementations:
+           If I added a new method to an interface,
+           all classes implementing that interface would break and must implement the new method.
+
+           Now with default implementation:
+           The interface already provides a method body,
+           so existing classes automatically inherit it without errors.
+
+           This means old classes continue to work without modification.
+
+           Benefits:
+
+           1. Existing code does not break.
+           2. Easier to extend interfaces.
+           3. Supports safer version updates.
+           4. Reduces need to modify old implementations.
+
+           If needed, classes can still override the default implementation.
+
+           This improves maintainability and version compatibility.
+
+           */
+
+            #endregion
+
+
+            #region Q9
+
+            // Default constructor
+            Book b1 = new Book();
+            b1.Display();
+
+            // Constructor with Title only
+            Book b2 = new Book("Clean Code");
+            b2.Display();
+
+            // Constructor with Title and Author
+            Book b3 = new Book("Design Patterns", "Gang of Four");
+            b3.Display();
+
+
+            /*
+            Answer:
+
+            Constructor overloading improves class usability by allowing object creation
+            in different ways depending on available information.
+
+            In this example, I created three constructors:
+
+            1. Default constructor:
+               Used when no information is available.
+
+            2. Constructor with Title only:
+               Used when only the title is known.
+
+            3. Constructor with Title and Author:
+               Used when full information is available.
+
+            Benefits:
+
+            1. Flexibility:
+               I can create objects with different levels of information.
+
+            2. Convenience:
+               No need to set properties manually after creating object.
+
+            3. Cleaner code:
+               Object initialization happens in one step.
+
+            4. Better usability:
+               Makes the class easier to use in different scenarios.
+
+            Constructor overloading makes the class more flexible and user-friendly.
+
+            */
+
+            #endregion
+
+
+
+            ///////////// part 2 ///////////
+
+
+            #region Create a Shape Series
+
+            Console.WriteLine("Square Series:");
+            IShapeSeries squareSeries = new SquareSeries();
+            PrintTenShapes(squareSeries);
+
+            Console.WriteLine();
+
+            Console.WriteLine("Circle Series:");
+            IShapeSeries circleSeries = new CircleSeries();
+            PrintTenShapes(circleSeries);
+
+
+
+
+            #endregion
+
+
+
+            #region Implement Sorting for Shapes
+
+            SortableShape[] shapes =
+            {
+                new SortableShape("Square", 16),
+                new SortableShape("Circle", 28.27),
+                new SortableShape("Rectangle", 10),
+                new SortableShape("Small Square", 4),
+                new SortableShape("Big Circle", 78.5)
+            };
+
+            Console.WriteLine("Before Sorting:\n");
+
+            foreach (var shape in shapes)
+            {
+                Console.WriteLine(shape);
+            }
+
+            Array.Sort(shapes);
+
+            Console.WriteLine("\nAfter Sorting (Ascending by Area):\n");
+
+            foreach (var shape in shapes)
+            {
+                Console.WriteLine(shape);
+            }
+
+
+            #endregion
+
+
+            #region Extend the Shape Hierarchy
+
+            GeometricShape triangle = new Triangle(4, 3);
+            GeometricShape rectangle = new GeoRectangle(5, 2);
+
+            Console.WriteLine("Triangle:");
+            triangle.Display();
+
+            Console.WriteLine();
+
+            Console.WriteLine("Rectangle:");
+            rectangle.Display();
+
+
+            #endregion
+
+
+
+
+            #region Implement Factory Pattern
+
+            GeometricShape shape1 = ShapeFactory.CreateShape("triangle", 4, 3);
+            GeometricShape shape2 = ShapeFactory.CreateShape("rectangle", 5, 2);
+            GeometricShape shape3 = ShapeFactory.CreateShape("triangle", 10, 5);
+
+            Console.WriteLine("Shape 1:");
+            shape1.Display();
+
+            Console.WriteLine();
+
+            Console.WriteLine("Shape 2:");
+            shape2.Display();
+
+            Console.WriteLine();
+
+            Console.WriteLine("Shape 3:");
+            shape3.Display();
+
+            #endregion
+
+
+
+
+
+
+
+
+
 
 
 
