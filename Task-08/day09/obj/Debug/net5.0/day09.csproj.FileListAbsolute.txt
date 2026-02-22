@@ -1,0 +1,16 @@
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\bin\Debug\net5.0\day09.exe
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\bin\Debug\net5.0\day09.deps.json
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\bin\Debug\net5.0\day09.runtimeconfig.json
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\bin\Debug\net5.0\day09.runtimeconfig.dev.json
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\bin\Debug\net5.0\day09.dll
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\bin\Debug\net5.0\day09.pdb
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\day09.csproj.AssemblyReference.cache
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\day09.GeneratedMSBuildEditorConfig.editorconfig
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\day09.AssemblyInfoInputs.cache
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\day09.AssemblyInfo.cs
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\day09.csproj.CoreCompileInputs.cache
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\day09.dll
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\refint\day09.dll
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\day09.pdb
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\day09.genruntimeconfig.cache
+E:\pro\DEPI_Csharp_tasks\Task-08\day09\obj\Debug\net5.0\ref\day09.dll
