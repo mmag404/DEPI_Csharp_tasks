@@ -205,6 +205,266 @@ namespace day02
                 Console.WriteLine($"{c.Category} - {c.AvgPrice}");
 
             #endregion
+
+            #region Ordering Operators
+
+            // 1
+            var productsByName = ListGenerators.ProductList
+                                 .OrderBy(p => p.ProductName);
+
+            foreach (var p in productsByName)
+                Console.WriteLine(p);
+
+
+            // 2
+            string[] Arr4 = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            var caseInsensitive = Arr4.OrderBy(w => w, StringComparer.OrdinalIgnoreCase);
+
+            foreach (var w in caseInsensitive)
+                Console.WriteLine(w);
+
+
+            // 3
+            var stockDesc = ListGenerators.ProductList
+                            .OrderByDescending(p => p.UnitsInStock);
+
+            foreach (var p in stockDesc)
+                Console.WriteLine(p);
+
+
+            // 4
+            string[] digits2 = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            var sortedDigits = digits2
+                               .OrderBy(d => d.Length)
+                               .ThenBy(d => d);
+
+            foreach (var d in sortedDigits)
+                Console.WriteLine(d);
+
+
+            // 5
+            string[] words2 = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            var sortedWords = words2
+                              .OrderBy(w => w.Length)
+                              .ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+
+            foreach (var w in sortedWords)
+                Console.WriteLine(w);
+
+
+            // 6
+            var sortedProducts = ListGenerators.ProductList
+                                 .OrderBy(p => p.Category)
+                                 .ThenByDescending(p => p.UnitPrice);
+
+            foreach (var p in sortedProducts)
+                Console.WriteLine(p);
+
+
+            // 7
+            string[] Arr5 = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            var sortedDesc = Arr5
+                             .OrderBy(w => w.Length)
+                             .ThenByDescending(w => w, StringComparer.OrdinalIgnoreCase);
+
+            foreach (var w in sortedDesc)
+                Console.WriteLine(w);
+
+
+            // 8
+            string[] Arr6 = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            var result = Arr6
+                         .Where(d => d.Length > 1 && d[1] == 'i')
+                         .Reverse();
+
+            foreach (var r in result)
+                Console.WriteLine(r);
+
+            #endregion
+
+
+
+
+            #region Transformation Operators
+
+            // 1
+            var productNames = ListGenerators.ProductList
+                               .Select(p => p.ProductName);
+
+            foreach (var name in productNames)
+                Console.WriteLine(name);
+
+
+            // 2
+            string[] words6 = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+
+            var wordCases = words6
+                            .Select(w => new
+                            {
+                                Upper = w.ToUpper(),
+                                Lower = w.ToLower()
+                            });
+
+            foreach (var w in wordCases)
+                Console.WriteLine($"{w.Upper} - {w.Lower}");
+
+
+            // 3
+            var productInfo = ListGenerators.ProductList
+                              .Select(p => new
+                              {
+                                  p.ProductName,
+                                  p.Category,
+                                  Price = p.UnitPrice
+                              });
+
+            foreach (var p in productInfo)
+                Console.WriteLine($"{p.ProductName} - {p.Category} - {p.Price}");
+
+
+            // 4
+            int[] Arr7 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            var inPlace = Arr7
+                          .Select((num, index) => new
+                          {
+                              Number = num,
+                              InPlace = num == index
+                          });
+
+            foreach (var item in inPlace)
+                Console.WriteLine($"{item.Number}: {item.InPlace}");
+
+
+            // 5
+            int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
+            int[] numbersB = { 1, 3, 5, 7, 8 };
+
+            var pairs = numbersA
+                        .SelectMany(a => numbersB
+                        .Where(b => a < b),
+                        (a, b) => new { a, b });
+
+            foreach (var p in pairs)
+                Console.WriteLine($"{p.a} is less than {p.b}");
+
+
+            // 6
+            var smallOrders = ListGenerators.CustomerList
+                             .SelectMany(c => c.Orders)
+                             .Where(o => o != null && o.Total < 500);
+
+            foreach (var o in smallOrders)
+                Console.WriteLine(o);
+
+
+            // 7
+            var recentOrders = ListGenerators.CustomerList
+                              .SelectMany(c => c.Orders)
+                              .Where(o => o != null && o.OrderDate.Year >= 1998);
+
+            foreach (var o in recentOrders)
+                Console.WriteLine(o);
+
+            #endregion
+
+
+            #region Partitioning Operators
+
+            // 1
+            var first3Orders = ListGenerators.CustomerList
+                              .Where(c => c.City == "Washington")
+                              .SelectMany(c => c.Orders)
+                              .Where(o => o != null)
+                              .Take(3);
+
+            foreach (var o in first3Orders)
+                Console.WriteLine(o);
+
+
+            // 2
+            var ordersAfter2 = ListGenerators.CustomerList
+                              .Where(c => c.City == "Washington")
+                              .SelectMany(c => c.Orders)
+                              .Where(o => o != null)
+                              .Skip(2);
+
+            foreach (var o in ordersAfter2)
+                Console.WriteLine(o);
+
+
+            // 3
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            var result1 = numbers
+                          .TakeWhile((num, index) => num >= index);
+
+            foreach (var n in result1)
+                Console.WriteLine(n);
+
+
+            // 4
+            int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            var result2 = numbers2
+                          .SkipWhile(n => n % 3 != 0);
+
+            foreach (var n in result2)
+                Console.WriteLine(n);
+
+
+            // 5
+            int[] numbers3 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            var result3 = numbers3
+                          .SkipWhile((num, index) => num >= index);
+
+            foreach (var n in result3)
+                Console.WriteLine(n);
+
+            #endregion
+
+
+            #region Quantifiers
+
+            // 1
+            string[] words9 = File.ReadAllLines("dictionary_english.txt");
+
+            var containsEi = words9.Any(w => w.Contains("ei"));
+            Console.WriteLine(containsEi);
+
+
+            // 2
+            var categoriesWithOutOfStock = ListGenerators.ProductList
+                                          .GroupBy(p => p.Category)
+                                          .Where(g => g.Any(p => p.UnitsInStock == 0));
+
+            foreach (var g in categoriesWithOutOfStock)
+            {
+                Console.WriteLine(g.Key);
+                foreach (var p in g)
+                    Console.WriteLine(p);
+            }
+
+
+            // 3
+            var categoriesAllInStock = ListGenerators.ProductList
+                                       .GroupBy(p => p.Category)
+                                       .Where(g => g.All(p => p.UnitsInStock > 0));
+
+            foreach (var g in categoriesAllInStock)
+            {
+                Console.WriteLine(g.Key);
+                foreach (var p in g)
+                    Console.WriteLine(p);
+            }
+
+            #endregion
         }
     }
 }

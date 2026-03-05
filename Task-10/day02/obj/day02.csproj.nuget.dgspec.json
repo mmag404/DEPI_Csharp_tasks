@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\pro\\DEPI_Csharp_tasks\\Project\\day02\\day02.csproj": {}
+    "E:\\pro\\DEPI_Csharp_tasks\\Task-10\\day02\\day02.csproj": {}
   },
   "projects": {
-    "E:\\pro\\DEPI_Csharp_tasks\\Project\\day02\\day02.csproj": {
+    "E:\\pro\\DEPI_Csharp_tasks\\Task-10\\day02\\day02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\pro\\DEPI_Csharp_tasks\\Project\\day02\\day02.csproj",
+        "projectUniqueName": "E:\\pro\\DEPI_Csharp_tasks\\Task-10\\day02\\day02.csproj",
         "projectName": "day02",
-        "projectPath": "E:\\pro\\DEPI_Csharp_tasks\\Project\\day02\\day02.csproj",
+        "projectPath": "E:\\pro\\DEPI_Csharp_tasks\\Task-10\\day02\\day02.csproj",
         "packagesPath": "C:\\Users\\Mohamed Magdy\\.nuget\\packages\\",
-        "outputPath": "E:\\pro\\DEPI_Csharp_tasks\\Project\\day02\\obj\\",
+        "outputPath": "E:\\pro\\DEPI_Csharp_tasks\\Task-10\\day02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed Magdy\\AppData\\Roaming\\NuGet\\NuGet.Config",
