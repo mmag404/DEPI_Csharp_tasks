@@ -1,0 +1,22 @@
+﻿@model day02.ViewModels.DeptWithExtraInfoViewModel
+
+<h2>Department Details</h2>
+
+<p><strong>Name:</strong> @Model.DepartmentName</p>
+
+<p><strong>State:</strong> @Model.DepartmentState</p>
+
+<hr />
+
+<label>Students Age > 25:</label>
+
+<select class="form-control">
+    @foreach (var student in Model.StudentsOver25)
+    {
+        <option value="@student.Id">@student.Name</option>
+    }
+</select>
+
+<br />
+
+<a href="/Department/ShowAll" class="btn btn-secondary">Back</a>

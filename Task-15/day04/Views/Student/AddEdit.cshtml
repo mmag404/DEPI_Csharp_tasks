@@ -1,0 +1,33 @@
+﻿@using day02.ViewModels
+@model StudentFormVM
+
+    <h2>@(Model.Id == 0 ? "Add Student" : "Edit Student")</h2>
+
+<form asp-action="@(Model.Id == 0 ? "Add" : "Edit")"
+      asp-controller="Student"
+      method="post">
+
+
+        <div>
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+
+        <div>
+            <label asp-for="Age"></label>
+            <input asp-for="Age" class="form-control" />
+        </div>
+
+        <div>
+            <label asp-for="DepartmentId">Department</label>
+
+            <select asp-for="DepartmentId"
+                asp-items="@(new SelectList(Model.Departments, "Id", "Name"))"
+                class="form-control">
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-success">Save</button>
+
+    </form>
+

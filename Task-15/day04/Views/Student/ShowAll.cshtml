@@ -1,0 +1,43 @@
+﻿@model List<Student>
+
+<h2>Students</h2>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Details</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Id</td>
+            <td>@s.Name</td>
+            <td>@s.Age</td>
+            <td>
+                <a href="/Student/ShowDetails?id=@s.Id">Details</a>
+            </td>
+            <td>
+                <a asp-controller="Student" asp-action="Edit" asp-route-id="@s.Id">
+                    Edit
+                </a>
+            </td>
+            <td>
+                <a asp-controller="Student"
+               asp-action="Delete"
+               asp-route-id="@s.Id"
+                   class="btn btn-danger">
+                    Delete
+                </a>
+            </td>
+        </tr>
+    }
+</table>
+
+<a asp-controller="Student" asp-action="Add" class="btn btn-primary">
+    Add New Student
+</a>
