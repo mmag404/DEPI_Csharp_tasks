@@ -1,0 +1,49 @@
+﻿@using day02.ViewModels
+@model StudentFormVM
+
+<h2>@(Model.Id == 0 ? "Add Student" : "Edit Student")</h2>
+
+<form asp-action="@(Model.Id == 0 ? "Add" : "Edit")"
+      asp-controller="Student"
+      method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <!-- 🔥 summary -->
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <!-- Name -->
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <!-- Age -->
+    <div>
+        <label asp-for="Age"></label>
+        <input asp-for="Age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <!-- Department -->
+    <div>
+        <label asp-for="DepartmentId"></label>
+
+        <select asp-for="DepartmentId"
+                asp-items="Model.Departments"
+                class="form-control">
+            <option value="">-- Select Department --</option>
+        </select>
+
+        <span asp-validation-for="DepartmentId" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,33 @@
+﻿@model Department
+
+<h2>Add Department</h2>
+
+<form asp-action="Add" method="post">
+
+    <!-- 🔥 Show all errors -->
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <!-- Name -->
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <!-- Manager Name -->
+    <div>
+        <label asp-for="MgrName"></label>
+        <input asp-for="MgrName" class="form-control" />
+        <span asp-validation-for="MgrName" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+
+<a asp-action="ShowAll" class="btn btn-secondary">Back</a>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
