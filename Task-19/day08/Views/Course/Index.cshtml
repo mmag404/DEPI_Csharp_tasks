@@ -1,0 +1,42 @@
+﻿@model List<day02.Models.Course>
+
+<h2>Courses</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Add Course</a>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Degree</th>
+            <th>Min Degree</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Name</td>
+                <td>@c.Degree</td>
+                <td>@c.MinDegree</td>
+                <td>@c.Department?.Name</td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@c.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@c.Id" class="btn btn-danger">Delete</a>
+
+                    <!-- 🔥 TEST Student Result -->
+                    <a asp-action="StudentResult"
+                       asp-route-studentId="1"
+                       asp-route-courseId="@c.Id"
+                       class="btn btn-info">
+                        Result
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

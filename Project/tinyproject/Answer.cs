@@ -10,23 +10,31 @@ namespace tinyproject
     {
         public int Id { get; set; }
         public string Text { get; set; }
+        public bool IsCorrect { get; set; }
 
-        public Answer(int id, string text)
+        public Answer() : this(0, string.Empty, false)
+        {
+        }
+
+        public Answer(int id, string text) : this(id, text, false)
+        {
+        }
+
+        public Answer(int id, string text, bool isCorrect)
         {
             Id = id;
             Text = text;
+            IsCorrect = isCorrect;
         }
 
         public object Clone()
         {
-            return new Answer(Id, Text);
+            return new Answer(Id, Text, IsCorrect);
         }
 
         public int CompareTo(Answer other)
         {
-            if (other == null)
-                return 1;
-
+            if (other == null) return 1;
             return Id.CompareTo(other.Id);
         }
 
@@ -37,10 +45,10 @@ namespace tinyproject
 
         public override bool Equals(object obj)
         {
-            if (obj is not Answer other)
-                return false;
+            if (obj is Answer other)
+                return Id == other.Id && Text == other.Text;
 
-            return Id == other.Id && Text == other.Text;
+            return false;
         }
 
         public override int GetHashCode()

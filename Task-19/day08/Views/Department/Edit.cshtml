@@ -1,0 +1,41 @@
+﻿@model Department
+
+<h2>Edit Department</h2>
+
+<form asp-action="Edit" method="post">
+
+    <!-- 🔥 IMPORTANT -->
+    <input type="hidden" asp-for="Id" />
+
+    <!-- Name -->
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+
+        <!-- Validation message -->
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <!-- Manager Name -->
+    <div>
+        <label asp-for="MgrName"></label>
+        <input asp-for="MgrName" class="form-control" />
+
+        <!-- Validation message -->
+        <span asp-validation-for="MgrName" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-success">Save</button>
+
+    <a asp-action="ShowAll" class="btn btn-secondary">Cancel</a>
+
+</form>
+
+<!-- 🔥 VERY IMPORTANT (client-side validation) -->
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

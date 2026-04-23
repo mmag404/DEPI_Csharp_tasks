@@ -1,0 +1,619 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\course\\studentresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\course\\studentresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\data\\configurations\\courseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:data\\configurations\\courseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\viewmodels\\coursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:viewmodels\\coursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\viewmodels\\studentcourseresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:viewmodels\\studentcourseresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\models\\stucrsres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:models\\stucrsres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\department\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\department\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\student\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\student\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\viewmodels\\studentformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:viewmodels\\studentformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\student\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\student\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\department\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\department\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\data\\contexts\\universitydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:data\\contexts\\universitydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\data\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:data\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\data\\configurations\\stucrsresconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:data\\configurations\\stucrsresconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\student\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\student\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\data\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:data\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\data\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:data\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\pro\\DEPI_Csharp_tasks\\task-13\\day02\\data\\Migrations\\20260316215142_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\data\\migrations\\20260316215753_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:data\\migrations\\20260316215753_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_MyLayout.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_MyLayout.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_MyLayout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-09T00:49:40.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Create.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T18:47:56.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAqwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Edit.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T18:49:23.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T18:24:03.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Details.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Details.cshtml",
+              "RelativeToolTip": "Views\\Course\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T18:55:04.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseVM.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\ViewModels\\CourseVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CourseVM.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\ViewModels\\CourseVM.cs",
+              "RelativeToolTip": "ViewModels\\CourseVM.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T18:22:30.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Delete.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Course\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T18:50:53.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseConfiguration.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\CourseConfiguration.cs",
+              "RelativeDocumentMoniker": "data\\Configurations\\CourseConfiguration.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\CourseConfiguration.cs",
+              "RelativeToolTip": "data\\Configurations\\CourseConfiguration.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentResult.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\StudentResult.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\StudentResult.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\StudentResult.cshtml",
+              "RelativeToolTip": "Views\\Course\\StudentResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T18:53:23.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Index.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T18:47:32.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentCourseResultVM.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\ViewModels\\StudentCourseResultVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\StudentCourseResultVM.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\ViewModels\\StudentCourseResultVM.cs",
+              "RelativeToolTip": "ViewModels\\StudentCourseResultVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T18:23:00.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-09T00:50:41.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "script.js",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\script.js",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "wwwroot\\js\\script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-09T00:51:19.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\AddEdit.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\AddEdit.cshtml",
+              "RelativeToolTip": "Views\\Student\\AddEdit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T23:07:00.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShowAll.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\ShowAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\ShowAll.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\ShowAll.cshtml",
+              "RelativeToolTip": "Views\\Department\\ShowAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T23:07:00.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StuCrsRes.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\StuCrsRes.cs",
+              "RelativeDocumentMoniker": "Models\\StuCrsRes.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\StuCrsRes.cs",
+              "RelativeToolTip": "Models\\StuCrsRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-09T00:52:34.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Add.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\Add.cshtml",
+              "RelativeToolTip": "Views\\Department\\Add.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T23:07:00.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StudentFormVM.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\ViewModels\\StudentFormVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\StudentFormVM.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\ViewModels\\StudentFormVM.cs",
+              "RelativeToolTip": "ViewModels\\StudentFormVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Edit.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T23:46:27.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShowAll.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\ShowAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\ShowAll.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\ShowAll.cshtml",
+              "RelativeToolTip": "Views\\Student\\ShowAll.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvx8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T23:07:00.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ShowDetails.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\ShowDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\ShowDetails.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\ShowDetails.cshtml",
+              "RelativeToolTip": "Views\\Department\\ShowDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T23:07:00.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Delete.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Student\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T23:07:00.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UniversityDB.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Contexts\\UniversityDB.cs",
+              "RelativeDocumentMoniker": "data\\Contexts\\UniversityDB.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Contexts\\UniversityDB.cs",
+              "RelativeToolTip": "data\\Contexts\\UniversityDB.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DepartmentConfiguration.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeDocumentMoniker": "data\\Configurations\\DepartmentConfiguration.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeToolTip": "data\\Configurations\\DepartmentConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StuCrsResConfiguration.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\StuCrsResConfiguration.cs",
+              "RelativeDocumentMoniker": "data\\Configurations\\StuCrsResConfiguration.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\StuCrsResConfiguration.cs",
+              "RelativeToolTip": "data\\Configurations\\StuCrsResConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ShowDetails.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\ShowDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\ShowDetails.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\ShowDetails.cshtml",
+              "RelativeToolTip": "Views\\Student\\ShowDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T23:07:00.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260316215753_InitialCreate.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Migrations\\20260316215753_InitialCreate.cs",
+              "RelativeDocumentMoniker": "data\\Migrations\\20260316215753_InitialCreate.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Migrations\\20260316215753_InitialCreate.cs",
+              "RelativeToolTip": "data\\Migrations\\20260316215753_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StudentConfiguration.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\StudentConfiguration.cs",
+              "RelativeDocumentMoniker": "data\\Configurations\\StudentConfiguration.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\StudentConfiguration.cs",
+              "RelativeToolTip": "data\\Configurations\\StudentConfiguration.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Models\\Teacher.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Teacher.cs",
+              "RelativeToolTip": "Models\\Teacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TeacherConfiguration.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\TeacherConfiguration.cs",
+              "RelativeDocumentMoniker": "data\\Configurations\\TeacherConfiguration.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\TeacherConfiguration.cs",
+              "RelativeToolTip": "data\\Configurations\\TeacherConfiguration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T23:07:00.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260316215142_InitialCreate.cs",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\task-13\\day02\\data\\Migrations\\20260316215142_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\task-13\\day02\\data\\Migrations\\20260316215142_InitialCreate.cs",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\task-13\\day02\\data\\Migrations\\20260316215142_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\task-13\\day02\\data\\Migrations\\20260316215142_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T21:51:42.865Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

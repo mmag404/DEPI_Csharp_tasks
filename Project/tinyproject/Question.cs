@@ -11,54 +11,59 @@ namespace tinyproject
         public string Header { get; set; }
         public string Body { get; set; }
         public int Marks { get; set; }
-        public AnswerList AnswerList { get; set; }
+        public AnswerList Answers { get; set; }
 
-        protected Question() : this(string.Empty, string.Empty, 0, new AnswerList())
+        public Question() : this("", "", 0, new AnswerList())
         {
         }
 
-        protected Question(string header, string body, int marks)
+        public Question(string header, string body, int marks)
             : this(header, body, marks, new AnswerList())
         {
         }
 
-        protected Question(string header, string body, int marks, AnswerList answers)
+        public Question(string header, string body, int marks, AnswerList answers)
         {
             Header = header;
             Body = body;
             Marks = marks;
-            AnswerList = answers ?? new AnswerList();
+            Answers = answers;
         }
 
-        public abstract object Clone();
+        public abstract void Display();
+
+        public object Clone()
+        {
+            AnswerList clonedAnswers = new AnswerList();
+
+            foreach (var a in Answers)
+                clonedAnswers.Add((Answer)a.Clone());
+
+            return this.MemberwiseClone();
+        }
 
         public int CompareTo(Question other)
         {
-            if (other == null)
-                return 1;
-
+            if (other == null) return 1;
             return Marks.CompareTo(other.Marks);
         }
 
         public override string ToString()
         {
-            return $"{Header}\n{Body}\nMarks: {Marks}\nAnswers:\n{AnswerList}";
+            return $"{Header}\n{Body}\nMarks: {Marks}";
         }
 
         public override bool Equals(object obj)
         {
-            if (obj is not Question other)
-                return false;
+            if (obj is Question q)
+                return Header == q.Header && Body == q.Body;
 
-            return Header == other.Header &&
-                   Body == other.Body &&
-                   Marks == other.Marks &&
-                   AnswerList.Equals(other.AnswerList);
+            return false;
         }
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(Header, Body, Marks, AnswerList);
+            return HashCode.Combine(Header, Body);
         }
     }
 }
