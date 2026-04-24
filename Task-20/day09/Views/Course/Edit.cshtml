@@ -1,0 +1,12 @@
+﻿@model day02.ViewModels.CourseVM
+
+<h2>Edit Course</h2>
+
+<form asp-action="Edit" method="post">
+    <partial name="_FormPartial" model="Model" />
+    <button class="btn btn-primary">Update</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,13 @@
+﻿@model Department
+
+<h2>Edit Department</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <partial name="_FormPartial" model="Model" />
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="ShowAll" class="btn btn-secondary">Cancel</a>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

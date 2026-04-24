@@ -1,0 +1,31 @@
+@model day02.ViewModels.CourseVM
+
+@Html.AntiForgeryToken()
+
+<input type="hidden" asp-for="Id" />
+
+<div class="mb-3">
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="Degree"></label>
+    <input asp-for="Degree" class="form-control" />
+    <span asp-validation-for="Degree" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="MinDegree"></label>
+    <input asp-for="MinDegree" class="form-control" />
+    <span asp-validation-for="MinDegree" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="DepartmentId"></label>
+    <select asp-for="DepartmentId" asp-items="Model.Departments" class="form-control">
+        <option value="">-- Select Department --</option>
+    </select>
+    <span asp-validation-for="DepartmentId" class="text-danger"></span>
+</div>

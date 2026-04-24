@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87920DF9-4A87-434D-ADBF-03BC7376D734}|day02.csproj|e:\\pro\\depi_csharp_tasks\\task-19\\day08\\viewmodels\\studentformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -157,7 +157,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -165,33 +165,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_MyLayout.cshtml",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Shared\\_MyLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_MyLayout.cshtml",
               "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Shared\\_MyLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_MyLayout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-09T00:49:40.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T00:49:40.768Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Course\\Create.cshtml",
-              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Create.cshtml",
-              "RelativeToolTip": "Views\\Course\\Create.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-11T18:47:56.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "StudentController.cs",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
@@ -199,12 +185,11 @@
               "RelativeToolTip": "Controllers\\StudentController.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAqwFEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T23:07:00.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T23:07:00.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\Edit.cshtml",
@@ -216,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
@@ -224,25 +209,48 @@
               "RelativeToolTip": "Controllers\\DepartmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T23:07:00.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T23:07:00.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CourseController.cs",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
               "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Controllers\\CourseController.cs",
               "RelativeToolTip": "Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwEMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:24:03.56Z",
+              "WhenOpened": "2026-04-11T18:24:03.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-09T00:52:34.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Create.cshtml",
+              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T18:47:56.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\Details.cshtml",
@@ -254,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CourseVM.cs",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\ViewModels\\CourseVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\CourseVM.cs",
@@ -266,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\Delete.cshtml",
@@ -278,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CourseConfiguration.cs",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\data\\Configurations\\CourseConfiguration.cs",
               "RelativeDocumentMoniker": "data\\Configurations\\CourseConfiguration.cs",
@@ -290,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StudentResult.cshtml",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\StudentResult.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\StudentResult.cshtml",
@@ -302,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Course\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\Index.cshtml",
@@ -314,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "StudentCourseResultVM.cs",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\ViewModels\\StudentCourseResultVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\StudentCourseResultVM.cs",
@@ -326,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "style.css",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
@@ -338,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "script.js",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\wwwroot\\js\\script.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\script.js",
@@ -350,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AddEdit.cshtml",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Student\\AddEdit.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\AddEdit.cshtml",
@@ -362,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ShowAll.cshtml",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\Department\\ShowAll.cshtml",
               "RelativeDocumentMoniker": "Views\\Department\\ShowAll.cshtml",
@@ -374,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Course.cs",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\Course.cs",
               "RelativeDocumentMoniker": "Models\\Course.cs",
@@ -386,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "StuCrsRes.cs",
               "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Models\\StuCrsRes.cs",
               "RelativeDocumentMoniker": "Models\\StuCrsRes.cs",
@@ -395,18 +403,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T23:07:00.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\pro\\DEPI_Csharp_tasks\\Task-19\\day08\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-09T00:52:34.737Z"
             },
             {
               "$type": "Document",

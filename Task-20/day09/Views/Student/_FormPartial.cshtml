@@ -1,0 +1,28 @@
+@using day02.ViewModels
+@model StudentFormVM
+
+@Html.AntiForgeryToken()
+
+<input type="hidden" asp-for="Id" />
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<div>
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+
+<div>
+    <label asp-for="Age"></label>
+    <input asp-for="Age" class="form-control" />
+    <span asp-validation-for="Age" class="text-danger"></span>
+</div>
+
+<div>
+    <label asp-for="DepartmentId"></label>
+    <select asp-for="DepartmentId" asp-items="Model.Departments" class="form-control">
+        <option value="">-- Select Department --</option>
+    </select>
+    <span asp-validation-for="DepartmentId" class="text-danger"></span>
+</div>

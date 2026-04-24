@@ -1,0 +1,41 @@
+﻿@model List<Department>
+
+<h2>All Departments</h2>
+
+<a asp-action="Add"
+   asp-controller="Department"
+   class="btn btn-primary">
+    New
+</a>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Details</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var dept in Model)
+    {
+        <tr>
+            <td>@dept.Name</td>
+
+            <td>
+                <a asp-action="ShowDetails"
+                   asp-controller="Department"
+                   asp-route-id="@dept.Id">
+                    View
+                </a>
+            </td>
+
+            <td>
+                <a asp-action="Edit"
+                   asp-controller="Department"
+                   asp-route-id="@dept.Id"
+                   class="btn btn-warning">
+                    Edit
+                </a>
+            </td>
+        </tr>
+    }
+</table>
